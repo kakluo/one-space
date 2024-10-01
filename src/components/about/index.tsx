@@ -15,23 +15,23 @@ import classNames from "classnames"
 const contactList = [
   {
     icon: GithubSVG,
-    link: "https://github.com/LHRUN"
+    link: "https://github.com/kakluo"
   },
   {
-    icon: TwitterSVG,
-    link: "https://twitter.com/Song_LongHao"
+    icon: My Blog,
+    link: "https://hexo.200038.xyz/"
   },
   {
     icon: GmailSVG,
-    email: "mailto:song.lhlh@gmail.com"
+    email: "jinxcose@gmail.com"
   },
   {
     icon: TelegramSVG,
     link: "https://twitter.com/Song_LongHao"
   },
   {
-    icon: V2exSVG,
-    link: "https://www.v2ex.com/member/LHRUN"
+    icon: LinuxDo,
+    link: "https://linux.do/t/topic/221411"
   },
 ]
 
@@ -106,7 +106,7 @@ const About = () => {
           }
         </div>
 
-        Hello, I{"'"}m Leo{"("}宋龙浩{")"}, a Front End Developer with many years of experience. Welcome to my personal space!
+        Hello, I{"'"}m Leo{"("}东方月初{")"}, a Front End Developer with many years of experience. Welcome to my personal space!
 
         <div className="mt-6">
         I focus on C-end project development, pursuing the ultimate aesthetic design and excellent user experience. In each project, I always maintain a high degree of enthusiasm and focus. I am usually keen to participate in open source projects and constantly explore cutting-edge technologies, and I am committed to creating truly extraordinary works that leave a mark worth remembering.
