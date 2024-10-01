@@ -67,7 +67,7 @@ const Home = () => {
           transform: lineTranslate(0.4, 100)
         }}
       >
-        <span>I{"东方月初"}m</span>
+        <span>I{"'"}m</span>
         <div
           className="flex items-center border-dashed rounded-xl relative scale-90 ml-4"
           style={{
