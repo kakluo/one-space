@@ -7,21 +7,21 @@ import classNames from "classnames"
 const blogList = [
   {
     img: "/projects/paint-board.png",
-    title: "Exploring the Canvas Series: Creative Brushes Part 3",
+    title: "My Blog",
     date: "Apr 16, 2024",
-    link: "https://songlh.top/2024/04/16/Exploring-the-Canvas-Series-Creative-Brushes-Part-3/"
+    link: "https://hexo.200038.xyz/"
   },
   {
     img: "/projects/paint-board.png",
-    title: "Exploring the Canvas Series: Creative Brushes Part 2",
+    title: "我的个人主页",
     date: "Apr 15, 2024",
-    link: "https://songlh.top/2024/04/15/Exploring-the-Canvas-Series-Creative-Brushes-Part-2/"
+    link: "https://caoni.us.kg"
   },
   {
     img: "/projects/paint-board.png",
-    title: "Exploring the Canvas Series: Creative Brushes Part 1",
+    title: "我的影视站",
     date: "Apr 14, 2024",
-    link: "https://songlh.top/2024/04/14/Exploring-the-Canvas-Series-Creative-Brushes-Part-1/"
+    link: "https://jinx.onea.us.kg/"
   },
 ]
 
@@ -64,7 +64,7 @@ const Blogs = () => {
           }
 
           <div className="flex justify-center w-full">
-            <a href="https://songlh.top/archives/" target="_blank" className="inline-flex items-center px-5 py-2 rounded-3xl mt-8 mx-auto cursor-pointer hover:scale-105 transition-all bg-[#2C3333]">
+            <a href="https://hexo.200038.xyz/" target="_blank" className="inline-flex items-center px-5 py-2 rounded-3xl mt-8 mx-auto cursor-pointer hover:scale-105 transition-all bg-[#2C3333]">
               <span className={classNames("text-white mr-4", BreeSerifFont.className)}>View More</span>
               <NavSvg className="w-4 h-4" />
             </a>
