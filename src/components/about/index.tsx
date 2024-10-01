@@ -18,7 +18,7 @@ const contactList = [
     link: "https://github.com/kakluo"
   },
   {
-    icon: My Blog,
+    icon: MyBlog,
     link: "https://hexo.200038.xyz/"
   },
   {
