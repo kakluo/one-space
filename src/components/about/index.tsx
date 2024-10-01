@@ -18,19 +18,19 @@ const contactList = [
     link: "https://github.com/kakluo"
   },
   {
-    icon: MyBlog,
-    link: "https://hexo.200038.xyz/"
+    icon: TwitterSVG,
+    link: ""
   },
   {
     icon: GmailSVG,
-    email: "jinxcose@gmail.com"
+    email: "mailto:jinxcose@gmail.com"
   },
   {
     icon: TelegramSVG,
-    link: "https://twitter.com/Song_LongHao"
+    link: ""
   },
   {
-    icon: LinuxDo,
+    icon: Linxdo,
     link: "https://linux.do/t/topic/221411"
   },
 ]
@@ -97,7 +97,7 @@ const About = () => {
               <a
                 href={item.email || item.link}
                 target="_blank"
-                className="p-1 border-black rounded-lg border-2 cursor-pointer hover:scale-110 transition-all"
+                className="p-1 border-black rounded-lg border-2 cursor-pointer hover:scale-110 transition-all dark:border-white"
                 key={index}
               >
                 <item.icon className="w-7 h-7" />
@@ -106,7 +106,7 @@ const About = () => {
           }
         </div>
 
-        Hello, I{"'"}m Leo{"("}东方月初{")"}, a Front End Developer with many years of experience. Welcome to my personal space!
+        Hello, I{"'"}m Leo{"("}宋龙浩{")"}, a Front End Developer with many years of experience. Welcome to my personal space!
 
         <div className="mt-6">
         I focus on C-end project development, pursuing the ultimate aesthetic design and excellent user experience. In each project, I always maintain a high degree of enthusiasm and focus. I am usually keen to participate in open source projects and constantly explore cutting-edge technologies, and I am committed to creating truly extraordinary works that leave a mark worth remembering.
