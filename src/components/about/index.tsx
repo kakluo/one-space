@@ -30,7 +30,7 @@ const contactList = [
     link: ""
   },
   {
-    icon: Linxdo,
+    icon: V2exSVG,
     link: "https://linux.do/t/topic/221411"
   },
 ]
